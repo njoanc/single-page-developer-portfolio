@@ -24,15 +24,11 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: List build directory contents
-        run: ls -la
-        working-directory: ./build
-
       - name: Install Netlify CLI
         run: npm install -g netlify-cli
 
       - name: Deploy to Netlify
-        run: netlify deploy --dir=build --prod
+        run: netlify deploy --dir=dist --prod
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
