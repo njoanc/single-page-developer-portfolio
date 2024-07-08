@@ -24,6 +24,10 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: List build directory contents
+        run: ls -la
+        working-directory: ./build
+
       - name: Install Netlify CLI
         run: npm install -g netlify-cli
 
