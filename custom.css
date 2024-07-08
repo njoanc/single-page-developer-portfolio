@@ -1,0 +1,22 @@
+.background-image {
+    background-image: url('shared/profilePicture.png');
+    height: 230px;
+    width: 203px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (min-width: 768px) {
+    .background-image {
+        height: 300px;
+        width: 260px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .background-image {
+        height: 400px;
+        width: 350px;
+    }
+}

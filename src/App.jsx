@@ -1,5 +1,11 @@
+import "./index.css";
+import Header from "./components/Header";
 function App() {
-  return <></>;
+  return (
+    <div className="min-h-screen">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
