@@ -1,0 +1,4 @@
+/* Add this to your styles.css or equivalent */
+.clip-half {
+    clip-path: inset(0 50% 0 0);
+}
