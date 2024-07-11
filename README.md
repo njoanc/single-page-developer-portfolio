@@ -4,7 +4,7 @@ This personal portfolio showcases my tech experience, skills, and educational ba
 
 ## Live Demo
 
-Check out the live demo of my portfolio [here](https://jnyiramwiza.netlify.app).
+Check out the live demo of my portfolio [here](https://njeanneadrc.netlify.app/).
 
 ## Features
 
@@ -18,7 +18,6 @@ Check out the live demo of my portfolio [here](https://jnyiramwiza.netlify.app).
 
 - **React.js**: A JavaScript library for building user interfaces
 - **Tailwind CSS**: A utility-first CSS framework for styling
-- **GitHub Actions**: CI/CD tool for automating workflows
 - **Netlify**: A platform for deploying web projects
 
 ## Getting Started
