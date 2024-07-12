@@ -1,11 +1,12 @@
 import "./index.css";
-import Header from "./components/Header";
-function App() {
+import React from "react";
+import Dashboard from "./components/Dashboard";
+const App = () => {
   return (
     <div>
-      <Header />
+      <Dashboard />
     </div>
   );
-}
+};
 
 export default App;
