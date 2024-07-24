@@ -1,5 +1,7 @@
 # Personal Portfolio
 
+![preview of solution](src/assets/images/preview/preview.jpg)
+
 This personal portfolio showcases my tech experience, skills, and educational background. Built with React.js and styled using Tailwind CSS, it highlights my journey and accomplishments in the tech industry.
 
 ## Live Demo
@@ -58,7 +60,7 @@ To get a local copy up and running, follow these simple steps.
 
 ## Deployment
 
-`The project is automatically deployed to Netlify using GitHub Actions. Any changes pushed to the main branch will trigger the deployment process.`
+`The project is automatically deployed to Netlify. Any changes pushed to the main branch will trigger the deployment process.`
 
 ## Contributing
 
