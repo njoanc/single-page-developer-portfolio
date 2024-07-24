@@ -34,7 +34,6 @@ function HeroSection() {
         <img
           src="/images/image-profile-mobile.webp"
           alt="An image of the author"
-          className=""
         />
       </picture>
     </section>
