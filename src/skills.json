@@ -1,0 +1,28 @@
+{
+  "skills": [
+    {
+      "title": "HTML",
+      "yearsOfExperience": 4
+    },
+    {
+      "title": "CSS",
+      "yearsOfExperience": 4
+    },
+    {
+      "title": "Javascript",
+      "yearsOfExperience": 4
+    },
+    {
+      "title": "Accessibility",
+      "yearsOfExperience": 4
+    },
+    {
+      "title": "React",
+      "yearsOfExperience": 3
+    },
+    {
+      "title": "Sass",
+      "yearsOfExperience": 4
+    }
+  ]
+}

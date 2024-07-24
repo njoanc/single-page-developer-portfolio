@@ -11,7 +11,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        "space-grotesk-bold": ["Space Grotesk", "sans-serif"],
+        "space-grotesk": ["Space Grotesk", "sans-serif"],
       },
     },
   },
