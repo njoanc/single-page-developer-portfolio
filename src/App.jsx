@@ -1,12 +1,16 @@
-import "./index.css";
-import React from "react";
-import Dashboard from "./components/Dashboard";
-const App = () => {
+import Header from "./components/header/Header";
+import HeroSection from "./components/sections/HeroSection";
+
+function App() {
   return (
-    <div>
-      <Dashboard />
-    </div>
+    <main className="overflow-x-clip">
+      <Header />
+
+      <div>
+        <HeroSection />
+      </div>
+    </main>
   );
-};
+}
 
 export default App;

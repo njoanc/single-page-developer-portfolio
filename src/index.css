@@ -1,3 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section-container {
+    @apply px-4 mx-auto;
+}
+
+.hero-bg-image::before {
+    content: '';
+    position: absolute;
+    top: 124px;
+    left: -340px;
+    width: 530px;
+    height: 129px;
+    background-image: url('/images/pattern-rings.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-position: -350px 120px; */
+    z-index: -1
+}
+
+.hero-bg-image::after {
+    content: '';
+    position: absolute;
+    right: -64.5px;
+    bottom: 275;
+    width: 129px;
+    height: 129px;
+    background-image: url('/images/pattern-circle.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+
+.skills-bg-image::before {
+    content: '';
+    position: absolute;
+    bottom: -64.5px;
+    right: -340px;
+    width: 530px;
+    height: 129px;
+    background-image: url('/images/pattern-rings.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1
+}
+
+.contact-bg-image::before {
+    content: '';
+    position: absolute;
+    bottom: 130px;
+    left: -340px;
+    width: 530px;
+    height: 129px;
+    background-image: url('/images/pattern-rings.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+}
+
+/* * Media 768px */
+@media (min-width: 768px) {
+    .section-container {
+        @apply px-[30px] mx-auto;
+    }
+
+    .hero-bg-image::before {
+        top: -60px;
+        left: -265px;
+    }
+
+    .hero-bg-image::after {
+        right: -64.5px;
+        bottom: -4px;
+    }
+
+    .skills-bg-image::before {
+        bottom: -64.5px;
+        right: -330px;
+    }
+
+    .contact-bg-image::before {
+        bottom: 60px;
+        left: -365px;
+    }
+}
+
+/* * Media 1024px */
+@media (min-width: 1024px) {
+    .section-container {
+        @apply px-[165px] mx-auto;
+    }
+
+    .hero-bg-image::before {
+        top: -60px;
+        left: -265px;
+    }
+
+    .hero-bg-image::after {
+        right: -64.5px;
+        bottom: -4px;
+    }
+
+    .skills-bg-image::before {
+        bottom: -64.5px;
+        right: -330px;
+    }
+
+    .contact-bg-image::before {
+        bottom: 100px;
+        left: -205px;
+    }
+}
+
+/* * Media 1280px */
+@media (min-width: 1280px) {
+
+    .hero-bg-image::before {
+        top: -65px;
+        left: -100px;
+    }
+
+    .hero-bg-image::after {
+        right: 550px;
+        bottom: 35px;
+    }
+
+    .skills-bg-image::before {
+        bottom: -64.5px;
+        right: -215px;
+    }
+
+}
+
+/* * Media 1447px */
+@media (min-width: 1438px) {
+
+    .hero-bg-image::after {
+        bottom: -54px;
+    }
+
+}
+
+@layer base {
+    body {
+        @apply text-base text-white font-SpaceGrotesk bg-very-black;
+    }
+}
