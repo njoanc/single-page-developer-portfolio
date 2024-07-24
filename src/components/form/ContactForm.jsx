@@ -37,7 +37,6 @@ function ContactForm() {
       });
     } else {
       setInvalid(null);
-      // Form submission logic here
     }
   };
 
