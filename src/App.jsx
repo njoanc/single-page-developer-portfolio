@@ -3,7 +3,7 @@ import HeroSection from "./components/sections/HeroSection";
 import SkillsSection from "./components/sections/SkillsSection";
 import ProjectsSection from "./components/sections/ProjectsSection";
 import ContactSection from "./components/sections/ContactSection";
-
+import Footer from "./components/footer/Footer";
 function App() {
   return (
     <main className="overflow-x-clip">
@@ -14,6 +14,7 @@ function App() {
         <ProjectsSection />
         <ContactSection />
       </div>
+      <Footer />
     </main>
   );
 }
