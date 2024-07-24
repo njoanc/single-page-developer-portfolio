@@ -7,8 +7,8 @@
     ],
     "tags": ["html", "css"],
     "slug": "design-portfolio",
-    "livePage": "https://master--velvety-gingersnap-b1ba44.netlify.app/",
-    "codePage": "https://github.com/newbpydev/sp-dev-portfolio-vite-ts-tw"
+    "livePage": "",
+    "codePage": ""
   },
   {
     "title": "E-Learning Landing Page",
@@ -18,8 +18,8 @@
     ],
     "tags": ["html", "css"],
     "slug": "e-learning-landing-page",
-    "livePage": "https://master--velvety-gingersnap-b1ba44.netlify.app/",
-    "codePage": "https://github.com/newbpydev/sp-dev-portfolio-vite-ts-tw"
+    "livePage": "",
+    "codePage": ""
   },
   {
     "title": "Todo Web App",
@@ -29,8 +29,8 @@
     ],
     "tags": ["html", "css", "javascript"],
     "slug": "todo-web-app",
-    "livePage": "https://master--velvety-gingersnap-b1ba44.netlify.app/",
-    "codePage": "https://github.com/newbpydev/sp-dev-portfolio-vite-ts-tw"
+    "livePage": "",
+    "codePage": ""
   },
   {
     "title": "Entertainment Web App",
@@ -40,8 +40,8 @@
     ],
     "tags": ["html", "css", "javascript"],
     "slug": "entertainment-web-app",
-    "livePage": "https://master--velvety-gingersnap-b1ba44.netlify.app/",
-    "codePage": "https://github.com/newbpydev/sp-dev-portfolio-vite-ts-tw"
+    "livePage": "",
+    "codePage": ""
   },
   {
     "title": "Memory Game",
@@ -51,8 +51,8 @@
     ],
     "tags": ["html", "css", "javascript"],
     "slug": "memory-game",
-    "livePage": "https://master--velvety-gingersnap-b1ba44.netlify.app/",
-    "codePage": "https://github.com/newbpydev/sp-dev-portfolio-vite-ts-tw"
+    "livePage": "",
+    "codePage": ""
   },
   {
     "title": "Art Gallery Showcase",
@@ -62,7 +62,7 @@
     ],
     "tags": ["html", "css", "javascript"],
     "slug": "art-gallery-showcase",
-    "livePage": "https://master--velvety-gingersnap-b1ba44.netlify.app/",
-    "codePage": "https://github.com/newbpydev/sp-dev-portfolio-vite-ts-tw"
+    "livePage": "",
+    "codePage": ""
   }
 ]

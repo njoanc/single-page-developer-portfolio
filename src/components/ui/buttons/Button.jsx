@@ -1,38 +1,16 @@
-function Button({ type = "button", children, href, ...rest }) {
-  let renderButton;
+function Button({ type = "button", children, href, className = "", ...rest }) {
+  const commonClasses =
+    "text-[16px] font-bold uppercase tracking-[2.28571px] leading-6 underline decoration-green underline-offset-[12px] hover:text-green transition duration-200 ";
 
-  if (type === "link") {
-    // @ anchor link
-    renderButton = (
-      <a
-        href={href}
-        {...rest}
-        className={
-          "text-[16px] font-bold uppercase tracking-[2.28571px] leading-6 underline decoration-green underline-offset-[12px] hover:text-green transition duration-200 " +
-          (rest.className || "")
-        }
-      >
-        {children}
-      </a>
-    );
-  } else {
-    // @ button
-    renderButton = (
-      <button
-        type={type}
-        {...rest}
-        className={
-          "text-[16px] font-bold uppercase tracking-[2.28571px] leading-[26px] underline decoration-green underline-offset-[12px] hover:text-green transition duration-200 " +
-          (rest.className || "")
-        }
-      >
-        {children}
-      </button>
-    );
-  }
-
-  // @ Output
-  return renderButton;
+  return type === "link" ? (
+    <a href={href} {...rest} className={`${commonClasses} ${className}`}>
+      {children}
+    </a>
+  ) : (
+    <button type={type} {...rest} className={`${commonClasses} ${className}`}>
+      {children}
+    </button>
+  );
 }
 
 export default Button;
