@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Design Portfolio",
+    "src": [
+      { "small": "thumbnail-project-1-small.webp" },
+      { "large": "thumbnail-project-1-large.webp" }
+    ],
+    "tags": ["html", "css"],
+    "slug": "design-portfolio",
+    "livePage": "https://master--velvety-gingersnap-b1ba44.netlify.app/",
+    "codePage": "https://github.com/newbpydev/sp-dev-portfolio-vite-ts-tw"
+  },
+  {
+    "title": "E-Learning Landing Page",
+    "src": [
+      { "small": "thumbnail-project-2-small.webp" },
+      { "large": "thumbnail-project-2-large.webp" }
+    ],
+    "tags": ["html", "css"],
+    "slug": "e-learning-landing-page",
+    "livePage": "https://master--velvety-gingersnap-b1ba44.netlify.app/",
+    "codePage": "https://github.com/newbpydev/sp-dev-portfolio-vite-ts-tw"
+  },
+  {
+    "title": "Todo Web App",
+    "src": [
+      { "small": "thumbnail-project-3-small.webp" },
+      { "large": "thumbnail-project-3-large.webp" }
+    ],
+    "tags": ["html", "css", "javascript"],
+    "slug": "todo-web-app",
+    "livePage": "https://master--velvety-gingersnap-b1ba44.netlify.app/",
+    "codePage": "https://github.com/newbpydev/sp-dev-portfolio-vite-ts-tw"
+  },
+  {
+    "title": "Entertainment Web App",
+    "src": [
+      { "small": "thumbnail-project-4-small.webp" },
+      { "large": "thumbnail-project-4-large.webp" }
+    ],
+    "tags": ["html", "css", "javascript"],
+    "slug": "entertainment-web-app",
+    "livePage": "https://master--velvety-gingersnap-b1ba44.netlify.app/",
+    "codePage": "https://github.com/newbpydev/sp-dev-portfolio-vite-ts-tw"
+  },
+  {
+    "title": "Memory Game",
+    "src": [
+      { "small": "thumbnail-project-5-small.webp" },
+      { "large": "thumbnail-project-5-large.webp" }
+    ],
+    "tags": ["html", "css", "javascript"],
+    "slug": "memory-game",
+    "livePage": "https://master--velvety-gingersnap-b1ba44.netlify.app/",
+    "codePage": "https://github.com/newbpydev/sp-dev-portfolio-vite-ts-tw"
+  },
+  {
+    "title": "Art Gallery Showcase",
+    "src": [
+      { "small": "thumbnail-project-6-small.webp" },
+      { "large": "thumbnail-project-6-large.webp" }
+    ],
+    "tags": ["html", "css", "javascript"],
+    "slug": "art-gallery-showcase",
+    "livePage": "https://master--velvety-gingersnap-b1ba44.netlify.app/",
+    "codePage": "https://github.com/newbpydev/sp-dev-portfolio-vite-ts-tw"
+  }
+]

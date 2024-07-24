@@ -1,0 +1,32 @@
+{
+  "sites": [
+    {
+      "icon": "github.svg",
+      "href": "https://www.github.com/",
+      "width": 26,
+      "height": 23,
+      "title": "image link to github"
+    },
+    {
+      "icon": "frontend-mentor.svg",
+      "href": "https://www.frontendmentor.com/",
+      "width": 25,
+      "height": 24,
+      "title": "image link to frontend-mentor"
+    },
+    {
+      "icon": "linkedin.svg",
+      "href": "https://www.linkedin.com/",
+      "width": 25,
+      "height": 24,
+      "title": "image link to linkedin"
+    },
+    {
+      "icon": "twitter.svg",
+      "href": "https://www.twitter.com/",
+      "width": 24,
+      "height": 20,
+      "title": "image link to twitter"
+    }
+  ]
+}
