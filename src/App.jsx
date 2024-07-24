@@ -1,5 +1,6 @@
 import Header from "./components/header/Header";
 import HeroSection from "./components/sections/HeroSection";
+import SkillsSection from "./components/sections/SkillsSection";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
 
       <div>
         <HeroSection />
+        <SkillsSection />
       </div>
     </main>
   );
