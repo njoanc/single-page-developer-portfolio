@@ -35,12 +35,12 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/njoanc/Jeanne-d-Arc.git
+   git clone https://github.com/njoanc/single-page-developer-portfolio.git
    ```
 2. Navigate to the project directory
 
    ```
-   cd jeannedarcportfolio
+   cd single-page-developer-portfolio
    ```
 
 3. Install dependencies
