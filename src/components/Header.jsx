@@ -79,7 +79,7 @@ function Header() {
             <img
               src={profilePicture}
               alt="profile picture"
-              className={`relative z-10 h-auto w-full md:w-full md:h-auto md:pt-[3rem]  lg:pt-5 xl:pt-10${
+              className={`relative z-10 h-auto w-full md:w-full md:h-auto md:pt-[3rem] lg:pt-5 xl:pt-10 ${
                 isLargeScreen ? "bg-[#242424]" : ""
               }`}
             />
@@ -91,10 +91,10 @@ function Header() {
         <img
           src="mobile/group26.svg"
           alt="group26"
-          className="transform -ml-[5rem] translate-y-[-10rem] md:translate-x-[-1rem] md:translate-y-[-13.5rem] lg:w-1/2  lg:h-[129px]  xl:w-[950px] xl:h-[155px] lg:translate-y-[-11.5rem] xl:translate-y-[-9.5rem]"
+          className="transform -ml-[5rem] translate-y-[-10rem] md:translate-x-[-1rem] md:translate-y-[-13.5rem] lg:w-1/2 lg:h-[129px] xl:w-[950px] xl:h-[155px] lg:translate-y-[-11.5rem] xl:translate-y-[-9.5rem]"
         />
       </div>
-      <div className="absolute inset-0  z-10">
+      <div className="absolute inset-0 z-10">
         <img
           src="shared/oval.svg"
           alt="oval"
