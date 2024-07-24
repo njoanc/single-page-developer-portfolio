@@ -7,7 +7,6 @@ function App() {
   return (
     <main className="overflow-x-clip">
       <Header />
-
       <div>
         <HeroSection />
         <SkillsSection />
