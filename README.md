@@ -6,7 +6,7 @@ This personal portfolio showcases my tech experience, skills, and educational ba
 
 ## Live Demo
 
-Check out the live demo of my portfolio [here](https://njeanneadrc.netlify.app/).
+Check out the live demo of my portfolio [here](https://singlepage-developer-portfolio.netlify.app/).
 
 ## Features
 
@@ -56,7 +56,7 @@ To get a local copy up and running, follow these simple steps.
    npm run start
 ```
 
-2. Open your browser and visit http://localhost:3000
+2. Open your browser and visit  http://localhost:5173/
 
 ## Deployment
 
